@@ -1,0 +1,39 @@
+.overflow{
+  filter: blur(5px);
+}
+.wrapper-account{
+  background: $color-wrapper;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-image: url("../../images/background-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.content{
+  display: flex;
+  font-family: $font-roboto-medium;
+  font-size: 17px;
+  color: $color-text;
+}
+.t-service{
+  p{
+    text-align: justify;
+    margin-top: 45px;
+    &:first-child{
+      margin-top: 22px;
+    }
+  }
+}
+.margin-small{
+  margin-top: 22px !important;
+}
+.t-service-title{
+  color: $select-color;
+}
+.wrapper-games{
+  max-width: 891px;
+  width: 100%;
+  margin-top: 30px;
+}

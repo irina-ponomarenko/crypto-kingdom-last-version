@@ -1,0 +1,52 @@
+.discort{
+  background-image: url("../../images/discord.png");
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 15px;
+  background-position: center;
+ }
+.facebook{
+  background-image: url("../../images/facebook.png");
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 15px;
+  background-position: center;
+}
+.tweeter{
+  background-image: url("../../images/tweeter.png");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 13px;
+  background-position: center;
+}
+.dropdown-language {
+  width: 73px;
+  height: 53px;
+  border-radius: 73px;
+  border: 4px solid $border-color;
+  -webkit-appearance: none;
+  background: url('../../images/chevron-down.svg') no-repeat 76% center;
+  background-size: 11px;
+  line-height: 1em;
+  color: $select-color;
+  background-color: $color-nav;
+  padding-left: 15px;
+  cursor: pointer;
+  outline: none;
+  /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  &:hover{
+    transition: .3s;
+    border: 4px solid $hover-color;
+  }
+
+}
+.dropdown-language::-ms-expand {
+  display: none;
+}
+

@@ -1,0 +1,109 @@
+.wrapper-account-info{
+  max-width: 958px;
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 141px;
+  position: relative;
+}
+.change-width{
+  max-width: 677px;
+}
+.account{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.account-position{
+  flex-direction: column;
+  align-items: center;
+}
+.avatar-user{
+  display: flex;
+  align-items: center;
+}
+.img-user img{
+  width: 100%;
+  border-radius: 5px;
+}
+.img-user{
+  margin-right: 17px;
+}
+.info-user{
+  h2{
+    font-size: 25px;
+    color: $select-color;
+    margin-bottom: 18px;
+  }
+  span{
+    color: $hover-color;
+  }
+  .wrapper-line-user{
+    width: 138px;
+    height: 5px;
+    margin-top: 18px;
+    background: $level-line;
+    border-radius: 10px;
+    .line-user{
+      height: 5px;
+      width: 80px;
+      margin: 0;
+      border-radius: 10px;
+      background: $hover-color;
+      border: none;
+    }
+  }
+}
+.email-adress{
+  margin-top: 22px;
+  width: 100%;
+  display: flex;
+  input{
+    padding: 35px 33px;
+    background: $color-black;
+    border: none;
+    font-size: 17px;
+    width: 76%;
+    color: $color-text;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  button{
+    padding: 35px 33px;
+    display: flex;
+    background: $color-dark;
+    border: none;
+    color: $color-text;
+    cursor: pointer;
+    outline: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: $font-roboto-medium;
+    &:hover{
+      background: $hover-color;
+      color: $level-line;
+      transition: .3s;
+    }
+  }
+}
+.category{
+  width: 100%;
+  h2{
+    color: $select-color;
+    margin-top: 45px;
+  }
+  li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+.wrapper-notifications{
+  h2{
+    margin-top: 45px;
+    color: $select-color;
+  }
+}

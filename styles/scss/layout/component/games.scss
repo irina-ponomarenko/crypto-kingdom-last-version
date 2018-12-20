@@ -1,0 +1,173 @@
+.game-wrapper{
+  max-width: 895px;
+  width: 100%;
+}
+.title-wrapper{
+  display: flex;
+  align-items: center;
+  background: $color-nav;
+  padding: 32px 49px;
+  li{
+    border-right: 1px solid $border-color;
+    padding-right: 55px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 0;
+    &:last-child{
+      border-right: none;
+      padding-right: 0;
+    }
+  }
+  h2{
+    margin-bottom: 16px;
+    color: $select-color;
+  }
+}
+.change-width-game{
+  max-width: 895px !important;
+}
+
+.games{
+  margin-top: 22px;
+  ul{
+    display: flex;
+    li.dice{
+      max-width: 310px;
+      width: 100%;
+      height: 304px;
+      background-image: url("../../images/dice.png");
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 34px 60px;
+      border-radius: 5px;
+      background-size: cover;
+      background-position: center;
+      h2{
+        color: $select-color;
+        margin-top: 82px;
+        filter: progid:DXImageTransform.Microsoft.DropShadow(offX=2, offY=1, color=#000000, positive=true);
+        text-shadow:2px 1px 8px rgba(0,0,0,0.35);
+        -webkit-text-shadow:2px 1px 8px rgba(0,0,0,0.35);
+        -moz-text-shadow:2px 1px 8px rgba(0,0,0,0.35);
+      }
+    }
+    li.roulette-game {
+      max-width: 310px;
+      width: 100%;
+      height: 304px;
+      background-image: url("../../images/rouletta-fon.png");
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 34px 60px;
+      border-radius: 5px;
+      background-size: cover;
+      background-position: center;
+      h2 {
+        color: $select-color;
+        margin-top: 82px;
+        filter: progid:DXImageTransform.Microsoft.DropShadow(offX=2, offY=1, color=#000000, positive=true);
+        text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+        -webkit-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+        -moz-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+      }
+    }
+  }
+}
+.games{
+  ul{
+    li{
+      &:first-child{
+        margin-right: 35px;
+      }
+    }
+    li.blackjack-game {
+      max-width: 310px;
+      width: 100%;
+      height: 304px;
+      background-image: url("../../images/blackjack.png");
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 34px 60px;
+      border-radius: 5px;
+      background-size: cover;
+      background-position: center;
+      h2 {
+        color: $select-color;
+        margin-top: 82px;
+        filter: progid:DXImageTransform.Microsoft.DropShadow(offX=2, offY=1, color=#000000, positive=true);
+        text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+        -webkit-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+        -moz-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+      }
+    }
+    li.crash-game {
+      max-width: 310px;
+      width: 100%;
+      height: 304px;
+      background-image: url("../../images/crash.png");
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 34px 60px;
+      border-radius: 5px;
+      background-size: cover;
+      background-position: center;
+      h2 {
+        color: $select-color;
+        margin-top: 82px;
+        filter: progid:DXImageTransform.Microsoft.DropShadow(offX=2, offY=1, color=#000000, positive=true);
+        text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+        -webkit-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+        -moz-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+      }
+      .title-bottom{
+        bottom: 35px;
+      }
+    }
+  }
+}
+.games{
+  ul{
+    &:last-child{
+      margin-top: 20px;
+    }
+    li{
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+    }
+  }
+}
+.title-bottom{
+  width: 100%;
+  position: relative;
+  bottom: -100px;
+  p{
+    margin-top: 32px;
+    text-align: center;
+  }
+
+}
+.stats{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  li{
+    color: $hover-color;
+    &:first-child{
+      color: $light-green;
+      margin-right: 0 !important;
+    }
+    &:last-child{
+      color: $background-off;
+    }
+  }
+}

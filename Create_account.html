@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="./styles/css/style.css" rel="stylesheet"/>
+    <link href="./styles/css/games.css" rel="stylesheet"/>
+    <link href="fonts/roboto_medium/stylesheet.css" rel="stylesheet"/>
+    <link href="fonts/roboto_regular/stylesheet.css" rel="stylesheet"/>
+    <link href="fonts/font-awesome/font-awesome.min.css" rel="stylesheet"/>
+    <link href="fonts/circe_extra_bold/stylesheet.css" rel="stylesheet"/>
+    <link href="styles/css/media.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="wrapper-account">
+    <header class="header box-shadow-none">
+        <div class="hello-block">
+            <div class="logo-start">
+                <img src="images/mascot-(stroke).png" alt="logo start"/>
+            </div>
+            <div class="wellcome-info">
+                <h2>Welcome to <span>CryptoKingdom</span></h2>
+                <p>Your No.1 Crypto Casino offering reliable and fast games
+                    all day everyday. Become a Cyrpto Millionaire Today!</p>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="account">
+            <div class="wrapper-account-info start-width">
+                <div class="game-wrapper-start">
+                    <div class="games-start">
+                        <ul>
+                            <li class="dice-start">
+                                <h2>DICE</h2>
+                            </li>
+                            <li class="roulette-start">
+                                <h2>ROULETTE</h2>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="blackjack-start">
+                                <h2>BLACKJACK</h2>
+                            </li>
+                            <li class="crash-start">
+                                <h2>CRASH</h2>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="buttons-start">
+                    <button type="button" class="create fade_open">CREATE ACCOUNT</button>
+                    <button type="button" class="sign sign_open">SIGN IN</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="pop_up create-account" id="fade">
+    <div class="title-pop-up">
+        <h2>CREATE ACCOUNT</h2>
+        <button type="button" class="img-dismiss-pop-up fade_close"></button>
+    </div>
+    <form class="account-create">
+        <ul class="pop-up-block account-block">
+            <li>
+                <input type="text" id="username" placeholder="Username"/>
+                <label for="username">Enter Username</label>
+            </li>
+            <li>
+                <input type="password" id="password" placeholder="Password"/>
+                <label for="password">Enter Password</label>
+            </li>
+            <li>
+                <input type="password" id="confirm_password" placeholder="Confirm Password"/>
+                <label for="confirm_password">Re Enter Password</label>
+            </li>
+            <li>
+                <input type="email" id="email" placeholder="Email"/>
+                <label for="email">Enter Email Address</label>
+            </li>
+        </ul>
+        <p>By clicking below, you agree to our TOS</p>
+        <button type="submit" class="submit">CREATE ACCOUNT</button>
+    </form>
+</div>
+
+<div class="pop_up create-account" id="sign">
+    <div class="title-pop-up">
+        <h2>SIGNING IN</h2>
+        <button type="button" class="img-dismiss-pop-up sign_close"></button>
+    </div>
+    <form class="account-create">
+        <ul class="pop-up-block account-block">
+            <li>
+                <input type="text" id="username1" placeholder="Username"/>
+                <label for="username">Enter Username</label>
+            </li>
+            <li>
+                <input type="password" id="password1" placeholder="Password"/>
+                <label for="password">Enter Password</label>
+            </li>
+            <li>
+                <input type="text" id="code" placeholder="2FA"/>
+                <label for="code">Enter 2FA Code</label>
+            </li>
+        </ul>
+        <p>By signing in, you agree to our Terms of Serivce</p>
+        <button type="submit" class="submit sign-in">SIGN IN</button>
+    </form>
+</div>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.popupoverlay.js"></script>
+<script src="js/circle.js"></script>
+<script src="js/jquery.toastmessage.js"></script>
+<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+<script src="js/jcarousel.responsive.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<script src="js/pie-chart.js"></script>
+<script src="js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.wrapper-history-info{
+  margin-top: 30px;
+}
+.img-history{
+  background-image: url("../../images/bitcoin.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33px;
+  height: 33px;
+  margin-right: 22px;
+}
+.bitcoin-title{
+  margin-top: 0;
+}
+.course{
+  display: flex;
+  align-items: center;
+  h2{
+    margin-top: 0;
+  }
+}
+.history{
+  display: flex;
+  align-items: center;
+  max-width: 835px;
+  width: 100%;
+  justify-content: space-between;
+  background: $background-nav;
+  padding: 27px 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.info-course{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.type-deposit{
+  display: flex;
+  align-items: center;
+  p{
+    margin-right: 35px;
+  }
+  a{
+    i{
+      font-size: 23px;
+      color: $color-link-external;
+      &:hover{
+        color: $select-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,312 @@
+* button{
+  outline: none;
+}
+.buttons{
+  display: flex;
+  button{
+    padding: 20px 45px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    background: $background-button;
+    color: $select-color;
+    max-width: 163px;
+    width: 100%;
+    &:hover{
+      background: $hover-color;
+      color: black;
+      transition: .3s;
+    }
+  }
+  &:last-child{
+    margin-right: 30px;
+  }
+}
+.withdraw{
+  margin-right: 20px;
+}
+.status-notifications{
+  i{
+    font-size: 18px;
+  }
+  button{
+    width: 75px;
+    height: 30px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    color: $select-color;
+    cursor: pointer;
+  }
+}
+.on{
+  background: $light-green;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.off{
+  background: $background-off;
+  flex-direction: row-reverse;
+  padding-right: 15px;
+  padding-left: 10px;
+  display: none !important;
+}
+.save{
+  text-align: center;
+  font-family: $font-roboto-medium;
+  font-size: 17px;
+  color: $select-color;
+  background: $light-green;
+  border: none;
+  border-radius: 5px;
+  max-width: 435px;
+  width: 100%;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  &:hover{
+    opacity: 0.5;
+    transition: .3s;
+  }
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c75353;
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 75px;
+  height: 30px;
+  display: flex;
+  border-radius: 30px;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 10px;
+  bottom: 6px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input +.slider:after{
+  position: absolute;
+  right: 12px;
+  top: 6px;
+  content: 'off';
+  font-family: "robotomedium", Arial, sans-serif;
+  font-size: 15px;
+}
+input:checked +.slider:after{
+  position: absolute;
+  left: 12px;
+  top: 6px;
+  content: 'on';
+  font-family: "robotomedium", Arial, sans-serif;
+  font-size: 15px;
+}
+input:checked + .slider {
+  background-color: #1abe66;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  left: 22px;
+  bottom: 6px;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  left: -20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.copy-address-button{
+  padding: 28px 30px;
+  max-width: 245px;
+  width: 100%;
+  background: $background-nav;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  color: $color-text;
+  font-family: $font-roboto-medium;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  &:hover{
+    color: $select-color;
+    transition: .3s;
+  }
+}
+.withdraw-button{
+  background: $light-green;
+  color: $select-color;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 17px;
+  font-family: $font-roboto-medium;
+  &:hover{
+    opacity: 0.5;
+    transition: .3s;
+  }
+}
+.drop_down{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  i{
+    color: $color-text;
+    &:hover{
+      color: $select-color;
+      transition: .3s;
+    }
+  }
+}
+.buttons-start{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create{
+  max-width: 268px;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  background: $level-line;
+  color: $hover-color;
+  font-size: 17px;
+  font-family: $font-roboto-medium;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 35px;
+  &:hover{
+    background: $hover-color;
+    color: black;
+    transition: .3s;
+  }
+}
+.sign{
+  max-width: 268px;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  background: $level-line;
+  color: $hover-color;
+  font-size: 17px;
+  font-family: $font-roboto-medium;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background: $hover-color;
+    color: black;
+    transition: .3s;
+  }
+}
+.submit{
+  max-width: 436px;
+  height: 60px;
+  font-size: 17px;
+  width: 100%;
+  background: $level-line;
+  color: $light-green;
+  text-align: center;
+  border: none;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  &:hover{
+    background: $light-green;
+    color: black;
+    transition: .3s;
+  }
+}
+.sign-in{
+  background: $light-green;
+  color: $select-color;
+  display: block;
+  &:hover{
+    background: $level-line;
+    color: $light-green;
+    transition: .3s;
+  }
+}
+.accept {
+  background: $light-green;
+  color: $select-color;
+  display: none;
+  &:hover{
+    color: $select-color;
+  }
+}
+.rules-button{
+  margin-bottom: 0 !important;
+}
+.claim{
+  max-width: 366px;
+  width: 100%;
+  padding: 25px 0;
+  font-size: 17px;
+  color: $color-nav;
+  border-radius: 5px;
+  border: none;
+  background: $hover-color;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  &:hover{
+    opacity: 0.3;
+    transition: .3s;
+  }
+}

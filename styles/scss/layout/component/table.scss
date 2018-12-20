@@ -1,0 +1,15 @@
+.history-dice {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 28px;
+  th{
+    width: 25%;
+  }
+}
+
+.result{
+  h2{
+    color: $select-color;
+    line-height: 23px;
+  }
+}

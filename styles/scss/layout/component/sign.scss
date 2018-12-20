@@ -1,0 +1,75 @@
+.logo-start{
+  width: 105px;
+  height: 80px;
+  margin-top: 63px;
+  margin-bottom: 30px;
+  img{
+    width: 105px;
+    height: 80px;
+  }
+}
+.hello-block{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wellcome-info{
+  font-size: 17px;
+  font-family: $font-roboto-medium;
+  text-align: center;
+  h2{
+    color: $select-color;
+    margin-bottom: 23px;
+    span{
+      color: $hover-color;
+    }
+  }
+  p{
+    color: $color-text;
+    max-width: 479px;
+  }
+}
+.box-shadow-none{
+  box-shadow: none;
+}
+.start-width{
+  max-width: 900px;
+}
+.games-start{
+  ul{
+    display: flex;
+    li{
+      max-width: 434px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 434px;
+      height: 190px;
+      margin-right: 35px;
+      margin-bottom: 35px;
+      &:last-child{
+        margin-right: 0;
+      }
+      h2{
+        color: $select-color;
+      }
+    }
+  }
+}
+.dice-start{
+  background-image: url("../../images/dice.png");
+
+}
+.roulette-start{
+  background-image: url("../../images/rouletta-fon.png");
+
+}
+.blackjack-start{
+  background-image: url("../../images/blackjack.png");
+}
+.crash-start{
+  background-image: url("../../images/crash.png");
+}

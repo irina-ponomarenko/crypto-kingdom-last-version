@@ -1,0 +1,46 @@
+.margin-top-none{
+  margin-top: 0;
+}
+.text-left{
+  text-align: left !important;
+}
+.variables{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.amount-input{
+  background: $color-dark;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 26px  30px;
+  width: 50%;
+  font-size: 17px;
+  color: $select-color;
+  &:first-child{
+    margin-right: 30px;
+  }
+}
+.affiliate-form{
+  label{
+    width: 50%;
+    color: #7b7e80;
+  }
+}
+.affiliate-form {
+  .large-text {
+    color: $select-color;
+    font-size: 25px;
+    position: relative;
+    width: auto;
+    padding-left: 45px;
+    background: url("../../images/bet.png") no-repeat;
+    background-size: 38px;
+  }
+}
+  .affiliate-form input{
+    color: $select-color;
+}

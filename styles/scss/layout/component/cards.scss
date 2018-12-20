@@ -1,0 +1,274 @@
+//.no-background-image{
+//  background-image: none;
+//}
+//.cadrs-wrapper{
+//  height: 100vh;
+//}
+//.cards{
+//  display: flex;
+//  margin: 0 auto;
+//  justify-content: center;
+//  padding-top: 60px;
+//}
+//.cards{
+//  &:last-child{
+//    margin-top: 115px;
+//    padding-top: 0;
+//  }
+//}
+//.cards{
+//  li{
+//    margin-right: 117px;
+//    max-width: 423px;
+//    width: 100%;
+//    position: relative;
+//  }
+//}
+//.cards {
+//  li {
+//    &:last-child {
+//      margin-right: 0;
+//    }
+//  }
+//}
+//
+//.img-cards {
+//  max-width: 323px;
+//  height: 603px;
+//  width: 100%;
+//  background: white;
+//  border-radius: 20px;
+//  background-image: url("../../images/fon-cards.png");
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//  padding: 50px;
+//  cursor: pointer;
+//}
+//.dark-cards{
+//  background: #1f2326;
+//  max-width: 323px;
+//  height: 603px;
+//  width: 100%;
+//  border-radius: 20px;
+//  background-image: url("../../images/fon-cards.png");
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//  padding: 50px;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  z-index: 150;
+//  position: relative;
+//}
+//.none-cards{
+//  max-width: 323px;
+//  height: 603px;
+//  width: 100%;
+//  border-radius: 20px;
+//  background-image: none;
+//  padding: 50px;
+//  background: #2d3236;
+//  position: absolute;
+//  z-index: 149;
+//  top: 3px;
+//}
+//.img-logo{
+//  background-image: url("../../images/mascot-(stroke-dark).png");
+//  background-repeat: no-repeat;
+//  width: 285px;
+//  height: 228px;
+//}
+//
+//
+//.hearts-wrapper-ace{
+//  display: none;
+//}
+//.hearts-wrapper-2{
+//  display: none;
+//}
+//.hearts-wrapper-3{
+//  display: none;
+//}
+//.hearts-wrapper-4{
+//  display: none;
+//}
+//.hearts-wrapper-5{
+//  display: none;
+//}
+//.hearts-wrapper-6{
+//  display: none;
+//}
+//.hearts-wrapper-7{
+//  display: none;
+//}
+//.hearts-wrapper-8{
+//  display: none;
+//}
+//.hearts-wrapper-9{
+//  display: none;
+//}
+//.hearts-wrapper-10{
+//  display: none;
+//}
+//.hearts-wrapper-J{
+//  display: none;
+//}
+//.hearts-wrapper-Q{
+//  display: none;
+//}
+//
+//.spade-wrapper-ace{
+//  display: none;
+//}
+//.spade-wrapper-2{
+//  display: none;
+//}
+//.spade-wrapper-3{
+//  display: none;
+//}
+//.spade-wrapper-4{
+//  display: none;
+//}
+//.spade-wrapper-5{
+//  display: none;
+//}
+//.spade-wrapper-6{
+//  display: none;
+//}
+//.spade-wrapper-7{
+//  display: none;
+//}
+//.spade-wrapper-8{
+//  display: none;
+//}
+//.spade-wrapper-9{
+//  display: none;
+//}
+//.spade-wrapper-10{
+//  display: none;
+//}
+//.spade-wrapper-J{
+//  display: none;
+//}
+//.spade-wrapper-Q{
+//  display: none;
+//}
+//
+//.diamonds-wrapper-ace{
+//  display: none;
+//}
+//.diamonds-wrapper-2{
+//  display: none;
+//}
+//.diamonds-wrapper-3{
+//  display: none;
+//}
+//.diamonds-wrapper-4{
+//  display: none;
+//}
+//.diamonds-wrapper-5{
+//  display: none;
+//}
+//.diamonds-wrapper-6{
+//  display: none;
+//}
+//.diamonds-wrapper-7{
+//  display: none;
+//}
+//.diamonds-wrapper-8{
+//  display: none;
+//}
+//.diamonds-wrapper-9{
+//  display: none;
+//}
+//.diamonds-wrapper-10{
+//  display: none;
+//}
+//.diamonds-wrapper-J{
+//  display: none;
+//}
+//.diamonds-wrapper-Q{
+//  display: none;
+//}
+//
+//.clubs-wrapper-ace{
+//  display: none;
+//}
+//.clubs-wrapper-2{
+//  display: none;
+//}
+//.clubs-wrapper-3{
+//  display: none;
+//}
+//.clubs-wrapper-4{
+//  display: none;
+//}
+//.clubs-wrapper-5{
+//  display: none;
+//}
+//.clubs-wrapper-6{
+//  display: none;
+//}
+//.clubs-wrapper-7{
+//  display: none;
+//}
+//.clubs-wrapper-8{
+//  display: none;
+//}
+//.clubs-wrapper-9{
+//  display: none;
+//}
+//.clubs-wrapper-10{
+//  display: none;
+//}
+//.clubs-wrapper-J{
+//  display: none;
+//}
+//.clubs-wrapper-Q{
+//  display: none;
+//}
+//
+//
+//.img-cards {
+//  h2{
+//    font-size: 166px;
+//    color: #ff6464;
+//    font-family: 'Circe', Arial;
+//    font-weight: 800;
+//  }
+//}
+//.color-dark{
+//  color: #515262 !important;
+//}
+//.cadr-img-heart{
+//  background-image: url("../../images/hearts.png");
+//  background-repeat: no-repeat;
+//  width: 213px;
+//  height: 190px;
+//  margin-top: 37px;
+//  background-size: contain;
+//}
+//.cadr-img-spade{
+//  background-image: url("../../images/spade.png");
+//  background-repeat: no-repeat;
+//  width: 200px;
+//  height: 213px;
+//  margin-top: 37px;
+//  background-size: contain;
+//}
+//.cadr-img-diamonds{
+//  background-image: url("../../images/diamonds.png");
+//  background-repeat: no-repeat;
+//  width: 213px;
+//  height: 213px;
+//  margin-top: 37px;
+//  background-size: contain;
+//}
+//.cadr-img-clubs{
+//  background-image: url("../../images/clubs.png");
+//  background-repeat: no-repeat;
+//  width: 213px;
+//  height: 213px;
+//  margin-top: 37px;
+//  background-size: contain;
+//}

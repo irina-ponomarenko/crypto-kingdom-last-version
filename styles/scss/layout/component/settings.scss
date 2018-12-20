@@ -1,0 +1,36 @@
+.form-setting{
+  background: $color-black;
+  border-radius: 5px;
+  padding: 33px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  input{
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    color: $color-text;
+    width: 80%;
+    outline: none;
+    text-align: right;
+    &::placeholder{
+      color: $color-text;
+      font-size: 17px;
+      font-family: $font-roboto-medium;
+    }
+  }
+}
+.new-background-grey{
+  background: $color-nav;
+}
+.change-input-width{
+  input{
+    width: 60%;
+  }
+}
+.options-info{
+    font-size: 17px;
+    color: $select-color;
+}

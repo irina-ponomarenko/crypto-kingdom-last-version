@@ -1,0 +1,98 @@
+* p{
+  line-height: 23px;
+}
+.bitcoin-block{
+  max-width: 80px;
+  width: 100%;
+  background: $color-nav;
+  border-radius: 5px;
+  padding: 22px 20px;
+}
+.bitcoin-wrapper{
+  display: flex;
+  align-items: center;
+}
+.img-bitcoin{
+  background-image: url("../../images/bitcoin.png");
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.dropdown-bitcoin{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  i{
+    font-size: 11px;
+    color: $color-text;
+    cursor: pointer;
+    &:hover{
+      color: $hover-color;
+    }
+  }
+}
+.right-bitcoin-info{
+  margin-left: 34px;
+  h2{
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  p{
+    max-width: 499px;
+  }
+}
+.change-input-width-password{
+  max-width: 895px;
+}
+.wrapper-account-info.width-deposit{
+  max-width: 895px;
+}
+.margin-bitcoin{
+  margin-top: 22px;
+}
+.code-qr{
+  border: 8px solid $color-nav;
+  border-radius: 5px;
+}
+.img-code-qr img{
+  width: 128px;
+  height: 128px;
+}
+.padding-form{
+  padding: 0 30px;
+  text-align: left !important;
+  color: $select-color !important;
+}
+.padding-form-none{
+  padding: 0;
+}
+input.placeholder-color::placeholder{
+  color: $color-text !important;
+}
+.withdraw-info{
+  color: $color-text-dark;
+  max-width: 665px;
+  line-height: 23px;
+  margin-top: 20px;
+}
+.dropdown-bitcoin-block{
+  background: $color-nav;
+  border-top: 1px solid $border-dark;
+  position: absolute;
+  left: 0;
+  max-width: 81px;
+  width: 100%;
+  padding: 20px;
+  top: 220px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.26);
+  -moz-box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.26);
+  box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.26);
+  display: none;
+  z-index: 1200;
+}
