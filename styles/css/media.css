@@ -56,6 +56,9 @@
         background-position: center;
         background-size: contain;
     }
+    .content-height-100vh{
+        height: calc(100vh + 130px);
+    }
 }
 
 @media (max-width: 1760px) {
@@ -107,6 +110,9 @@
     }
     .wrapper-left-block{
         padding: 28px 30px;
+    }
+    .content-height-100vh{
+        height: auto;
     }
     .chat-block{
         padding: 7px 20px;
